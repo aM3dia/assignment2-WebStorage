@@ -1,0 +1,41 @@
+body {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+}
+
+/* input field */
+input {
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+/* buttons */
+button {
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+/* paragraph name display */
+#display-name {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
